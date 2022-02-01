@@ -2,7 +2,10 @@
 
 This code is originally from https://github.com/nsg-ethz/p4-learning and I give full credit to the copyright holder. 
 
-I have made minor changes to the code to make it run directly on the bmv2 switch, without comfortable tools such as p4run, p4app or mininet 
+I have made minor changes to the code to make it run directly on the bmv2 switch, without comfortable tools such as p4run, p4app or mininet. 
+
+Pre-Installation of dependencies are needed (PI, Behavioral Model (BMv2), P4C) and can be accessed at https://github.com/jafingerhut/p4-guide
+
 
 ## Introduction
 
