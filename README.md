@@ -35,7 +35,7 @@ p4c-bm2-ss --p4v 16 cm-sketch.p4 -o cm-sketch.json
 
 5. Run the switch in background 
 ```
-sudo simple_switch -i 0@veth0 -i 1@veth2 -i 2@veth4 --log-console --thrift-port 9090 cm-sketch.json
+sudo simple_switch -i 0@veth0 -i 1@veth2 --log-console --thrift-port 9090 cm-sketch.json
 ```
 
 6. Open a different terminal in cd CountMinSketch, and send packets 
