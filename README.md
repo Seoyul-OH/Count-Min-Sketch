@@ -64,4 +64,4 @@ sudo python3 cm-sketch-controller.py --option "set_hashes"
 
 8. Run the controller with the `decode` option
 ```
-sudo python3 cm-sketch-controller.py --eps 0.1 --n 1000 --mod 28 --option decode
+sudo python3 cm-sketch-controller.py --eps 0.1 --n 100000 --mod 28 --option decode
