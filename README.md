@@ -1,4 +1,4 @@
-# Implementing Count-Min Sketch on a bmv2 p4 switch  
+# Implementing Count-Min Sketch on a Bmv2 p4 Switch  
 
 This code is originally from https://github.com/nsg-ethz/p4-learning and I give full credit to the copyright holder. 
 
