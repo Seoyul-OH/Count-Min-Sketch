@@ -70,8 +70,6 @@ class CMSController(object):
         for flow, n_packets in flows.items():
             cms = self.get_cms(flow, mod)
             print("Packets sent and read by the cms: {}/{}".format(n_packets, cms))
-            if not (cms <(n_packets + (eps*n))):
-                confidence_count +=1
 
 
 if __name__ == "__main__":
