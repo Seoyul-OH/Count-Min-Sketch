@@ -42,13 +42,6 @@ p4c-bm2-ss --p4v 16 cm-sketch.p4 -o cm-sketch.json
 sudo simple_switch -i 0@veth0 -i 1@veth2 --log-console --thrift-port 9090 cm-sketch.json
 ```
 
-6. Open a different terminal in cd CountMinSketch, and send packets 
-```
-sudo python3 send.py --n-pkt 100000 --n-hh 10 --n-sfw 990 --p-hh 0.95
-```
-
-(A total of 100000 packets with 10 heavy hitter flows, 990 small flows, and the percentage of heavy hitter packets to all packets is 0.95)
-
 
 #### Dimensioning
 
@@ -61,10 +54,18 @@ sudo python3 send.py --n-pkt 100000 --n-hh 10 --n-sfw 990 --p-hh 0.95
 For example, if we want a ϵ=0.1 and δ=0.05. Registers = 3, length=28.
 
 
-7. Set hashes of the controller by running the `set_hashes` option 
+6. Set hashes of the controller by running the `set_hashes` option 
 ```
 sudo python3 cm-sketch-controller.py --option "set_hashes"
 ```
+
+7. Open a different terminal in cd CountMinSketch, and send packets 
+```
+sudo python3 send.py --n-pkt 100000 --n-hh 10 --n-sfw 990 --p-hh 0.95
+```
+
+(A total of 100000 packets with 10 heavy hitter flows, 990 small flows, and the percentage of heavy hitter packets to all packets is 0.95)
+
 
 8. Run the controller with the `decode` option
 ```
