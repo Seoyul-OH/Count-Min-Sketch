@@ -18,11 +18,11 @@ In order to read how many entries were counted for a given flow, read the value 
 1.  Clone the repository to local 
 
     ```
-    git clone https://github.com/Seoyul-OH/CountMinSketch.git
+    git clone https://github.com/Seoyul-OH/Count-Min-Sketch.git
     ```
 
 2. ```
-    cd CountMinSketch
+    cd Count-Min-Sketch
    ```
 
 3. Define veths in your path 
