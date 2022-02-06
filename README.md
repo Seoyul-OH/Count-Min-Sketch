@@ -4,9 +4,11 @@ This code is originally from https://github.com/nsg-ethz/p4-learning and I give 
 
 I have made minor changes to the code to make it run directly on the bmv2 switch, without comfortable tools such as p4run, p4app or mininet. 
 
-Pre-Installation of dependencies are needed (PI, Behavioral Model (BMv2), P4C). 
-They can be downloaded at https://github.com/jafingerhut/p4-guide
+This code works well on both Ubuntu 20.04 and Ubuntu 18.04
 
+Pre-Installation of dependencies are needed (PI, Behavioral Model (BMv2), P4C, and p4-utils). 
+They can be downloaded at https://github.com/jafingerhut/p4-guide
+and p4-utils at https://github.com/nsg-ethz/p4-utils
 
 ## Introduction
 
